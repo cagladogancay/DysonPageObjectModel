@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Urun Inceleme Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.119">
+  <properties />
+  
+  
+            <testcase name="urunIncelemeTest" time="3.119" classname="com.cagla.testcases.UrunIncelemeTest" />
+      
+</testsuite>

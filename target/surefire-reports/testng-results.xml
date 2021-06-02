@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="5084" started-at="2021-06-02T13:10:59Z" finished-at="2021-06-02T13:11:04Z">
+    <groups>
+    </groups>
+    <test name="Fırsatlar Test" duration-ms="1362" started-at="2021-06-02T13:10:59Z" finished-at="2021-06-02T13:11:00Z">
+      <class name="com.cagla.testcases.FirsatlarTest">
+        <test-method status="PASS" signature="firsatlarTest()[pri:0, instance:com.cagla.testcases.FirsatlarTest@547e29a4]" name="firsatlarTest" duration-ms="1323" started-at="2021-06-02T16:10:59Z" finished-at="2021-06-02T16:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firsatlarTest -->
+      </class> <!-- com.cagla.testcases.FirsatlarTest -->
+    </test> <!-- Fırsatlar Test -->
+    <test name="Urun Inceleme Test" duration-ms="3120" started-at="2021-06-02T13:11:01Z" finished-at="2021-06-02T13:11:04Z">
+      <class name="com.cagla.testcases.UrunIncelemeTest">
+        <test-method status="PASS" signature="urunIncelemeTest()[pri:0, instance:com.cagla.testcases.UrunIncelemeTest@436390f4]" name="urunIncelemeTest" duration-ms="3119" started-at="2021-06-02T16:11:01Z" finished-at="2021-06-02T16:11:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urunIncelemeTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cagla.testcases.UrunIncelemeTest@436390f4]" name="tearDown" is-config="true" duration-ms="968" started-at="2021-06-02T16:11:04Z" finished-at="2021-06-02T16:11:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cagla.testcases.UrunIncelemeTest -->
+    </test> <!-- Urun Inceleme Test -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

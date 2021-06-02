@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name="com.cagla.listeners.CustomListeners"/>
+    </listeners>
+    <test verbose="2"
+          name="Fırsatlar Test">
+        <classes>
+            <class name="com.cagla.testcases.FirsatlarTest"/>
+        </classes>
+    </test>
+    <test verbose="2"
+          name="Urun Inceleme Test">
+        <classes>
+            <class name="com.cagla.testcases.UrunIncelemeTest"/>
+        </classes>
+    </test>
+</suite>
