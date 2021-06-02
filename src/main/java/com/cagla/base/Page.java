@@ -73,10 +73,11 @@ public class Page {
                     WebDriverManager.firefoxdriver().setup();
                     driver = new FirefoxDriver();
                     break;
-                case "edge":
+                    //çalışmıyor
+            /*    case "edge":
                     WebDriverManager.edgedriver().setup();
                     driver = new EdgeDriver();
-                    break;
+                    break;*/
             }
             driver.manage().window().maximize();
             driver.get(config.getProperty("browserurl"));
