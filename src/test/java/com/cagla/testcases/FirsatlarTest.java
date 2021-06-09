@@ -1,14 +1,23 @@
 package com.cagla.testcases;
 
-import com.cagla.base.TopMenu;
-import com.cagla.pages.HomePage;
+import com.cagla.actions.DealsPage;
+import com.cagla.actions.HomePage;
+import com.cagla.base.Page;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
-public class FirsatlarTest extends BaseTest {
+public class FirsatlarTest {
     @Test
     public void firsatlarTest() {
+        Page.initConfiguration();
         HomePage homePage = new HomePage();
-        homePage.goToKesfet();
+        DealsPage dealsPage = Page.menu.goToDeals();
         homePage.goToBackHomePage();
+
+    }
+
+    @AfterMethod
+    public void tearDown() {
+        Page.quit();
     }
 }

@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="2.183">
+           time="8.251">
   <properties />
   
   
-            <testcase name="firsatlarTest" time="2.183" classname="com.cagla.testcases.FirsatlarTest" />
+            <testcase name="firsatlarTest" time="8.251" classname="com.cagla.testcases.FirsatlarTest" />
       
 </testsuite>
